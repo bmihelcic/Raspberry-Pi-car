@@ -6,7 +6,8 @@ In this case battery pack was made from 3 Li-ion cells (18650 batteries) connect
 
 Picture of the car (<a href="https://imgur.com/a/FI5trt0?fbclid=IwAR1l8s3ibRoFMvHX9asOz31bh5_jKTPcRrNeI7DT6ocMPM4hWfHQ9kSA5Qg" target="_blank">link<a/>)
 
-Pin connections between Raspberry and L298 module<br>
+Pin connections between Raspberry and L298 module
+
 | Name | wiringPi | BCM	  | Physical |
 | ---  |:--------:| -----:| --------:| 
 | in1  | 0        | 17 	  | 11       |
