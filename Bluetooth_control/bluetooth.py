@@ -5,8 +5,8 @@ import RPi.GPIO as GPIO
 ENABLE_PRINT=1
 
 class Bluetooth(object):
-   ser=serial.Serial()
    def __init__(self):
+      self.ser=serial.Serial()
       self.ser.baudrate=115200
       self.ser.port='/dev/rfcomm0'
       print('Connecting to '+self.ser.name+'...')
