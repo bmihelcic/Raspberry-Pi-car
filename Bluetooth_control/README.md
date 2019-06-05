@@ -11,5 +11,5 @@ Steps:
 
 You also have to install 2 modules:
 
-sudo apt install rpi.gpio
-sudo pip3 install pyserial
+sudo apt install rpi.gpio<br>
+sudo pip3 install pyserial<br>
