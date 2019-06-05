@@ -9,3 +9,7 @@ Steps:
 5. Open another terminal and run script with "./bluetooth.py"
 6. Drive :)
 
+You also have to install 2 modules:
+
+sudo apt install rpi.gpio
+sudo pip3 install pyserial
