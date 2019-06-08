@@ -9,7 +9,8 @@ Steps:
 5. Open another terminal and run script with "./bluetooth.py"
 6. Drive :)
 
-If you want raspberry to automatically run these commands after reboot, edit cron jobs using "sudo crontab -e" command and at the end of the file add: "@reboot /home/pi/Raspberry-Pi-car/Bluetooth_control/Pi_blt_startup.sh"
+If you want raspberry to automatically (on reboot) listen for bluetooth connection and run the script so you can drive right away, edit cron jobs using "sudo crontab -e" command and at the end of the file add: "@reboot /home/pi/Raspberry-Pi-car/Bluetooth_control/pi_blt_startup.sh"
+
 You also have to install 2 modules:
 
 sudo apt install rpi.gpio<br>
