@@ -22,14 +22,16 @@ Pin connections between Raspberry and L298 module
 ![](Car.jpg)
 
 Parts list:<br>
-1 set 4WD smart robot car chassis kit
-1 L298n DC motor driver module
-1 DC-DC buck converter
-1 battery holder for 3x 18650 Li-ion cells
-1 switch
-1 female USB type A connector (<i>optional</i>)
-1 micro USB cable
-x hot glue
-x doupont cables
-x soldering iron
-x wire cutter
+<ul>
+<li>1 set 4WD smart robot car chassis kit
+<li>1 L298n DC motor driver module
+<li>1 DC-DC buck converter
+<li>1 battery holder for 3x 18650 Li-ion cells
+<li>1 switch
+<li>1 female USB type A connector (<i>optional</i>)
+<li>1 micro USB cable
+<li>x hot glue
+<li>x doupont cables
+<li>x soldering iron
+<li>x wire cutter
+</ul>
