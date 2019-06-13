@@ -3,7 +3,7 @@ Rpi car using L298n H-bridge and controlling with "Bluetooth RC Controller app".
 
 Steps:
 1. Firstly download "Arduino Bluetooth RC Car" app by Andi.Co on your smartphone.
-2. Open file "sudo nano /etc/systemd/system/dbus-org.bluez.service" and edit two lines, it should look like:<br>
+2. Open file "sudo nano /etc/systemd/system/dbus-org.bluez.service" on Raspberry and edit two lines, it should look like:<br>
  	ExecStart=/usr/lib/bluetooth/bluetoothd -C<br>
 	ExecStartPost=/usr/bin/sdptool add SP
 3. Turn on Bluetooth on Raspberry and pair it with your phone (You need to pair mac addresses using "sudo bluetoothctl" command).
